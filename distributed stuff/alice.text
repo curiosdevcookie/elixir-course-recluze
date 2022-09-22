@@ -1,0 +1,46 @@
+Last login: Tue Sep 20 11:50:19 on ttys013
+ariadneengelbrecht@dionysos ~ % iex --name
+{fatal,error,module,ex,"does not export",boot,"/1"}
+ariadneengelbrecht@dionysos ~ % iex --name alice
+Erlang/OTP 25 [erts-13.0.4] [source] [64-bit] [smp:10:10] [ds:10:10:10] [async-threads:1] [jit] [dtrace]
+
+Interactive Elixir (1.14.0) - press Ctrl+C to exit (type h() ENTER for help)
+iex(alice@dionysos.fritz.box)1> defmodule Hello do
+...(alice@dionysos.fritz.box)1> def world do
+...(alice@dionysos.fritz.box)1> IO.puts "Hello World"
+...(alice@dionysos.fritz.box)1> end
+...(alice@dionysos.fritz.box)1> end
+{:module, Hello,
+ <<70, 79, 82, 49, 0, 0, 5, 112, 66, 69, 65, 77, 65, 116, 85, 56, 0, 0, 0, 184,
+   0, 0, 0, 19, 12, 69, 108, 105, 120, 105, 114, 46, 72, 101, 108, 108, 111, 8,
+   95, 95, 105, 110, 102, 111, 95, 95, 10, ...>>, {:world, 0}}
+iex(alice@dionysos.fritz.box)2> clear
+
+
+
+
+
+
+iex(alice@dionysos.fritz.box)3> Hello.world()
+Hello World
+:ok
+iex(alice@dionysos.fritz.box)4> 
+BREAK: (a)bort (A)bort with dump (c)ontinue (p)roc info (i)nfo
+       (l)oaded (v)ersion (k)ill (D)b-tables (d)istribution
+^C%                                                                             ariadneengelbrecht@dionysos ~ % 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

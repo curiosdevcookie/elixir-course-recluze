@@ -1,0 +1,20 @@
+Last login: Wed Sep 21 15:39:18 on ttys013
+ariadneengelbrecht@dionysos ~ % iex --name Bob
+Erlang/OTP 25 [erts-13.0.4] [source] [64-bit] [smp:10:10] [ds:10:10:10] [async-threads:1] [jit] [dtrace]
+
+Interactive Elixir (1.14.0) - press Ctrl+C to exit (type h() ENTER for help)
+iex(Bob@dionysos.fritz.box)1> Hello.world()
+** (UndefinedFunctionError) function Hello.world/0 is undefined (module Hello is not available)
+    Hello.world()
+    iex:1: (file)
+iex(Bob@dionysos.fritz.box)1> Node.spawn(:"alice@dionysos.fritz.box", fn -> Hello.world() end)
+Hello World
+#PID<12546.129.0>
+iex(Bob@dionysos.fritz.box)2> 
+BREAK: (a)bort (A)bort with dump (c)ontinue (p)roc info (i)nfo
+       (l)oaded (v)ersion (k)ill (D)b-tables (d)istribution
+^C%                                                                             ariadneengelbrecht@dionysos ~ % 
+
+
+
+
